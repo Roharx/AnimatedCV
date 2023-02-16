@@ -31,8 +31,9 @@ html, body{
     cursor: pointer;
     text-shadow: 2px 2px 5px var(--clr-black);
 }
-.btn.btn:click{
-    
+.btn:active{
+    text-shadow: none;
+    color: var(--clr-white);
 }
 #header{
     height: 25rem;
